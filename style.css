@@ -25,12 +25,15 @@ main {
   height: 100vh;
 }
 
-.card {
+.container {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   width: min(100% - 1rem, 320px);
+}
+
+.card {
   height: 500px;
   border-radius: 20px;
   background: var(--white);
@@ -47,6 +50,10 @@ img {
 .text {
   margin-inline: .5rem;
   text-align: center;
+}
+
+.text h1 {
+  font-size: 1.5em;
 }
 
 .text p {
